@@ -56,6 +56,9 @@ nav .right ul li a, footer .right ul li a{
     text-decoration: none;
     font-size: 13px;
 }
+nav .right ul li a img, footer .right ul li a img{
+    display: none;
+}
 nav .right ul li a:hover, footer .right ul li a:hover{
     color: #cecece;
 }
