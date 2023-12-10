@@ -9,6 +9,7 @@ body{
     background-color: #171717;
     background-image: url('../img/BG.svg');
     color: #8A8A8A;
+    overflow-x: hidden;
 }
 .line{    
     border: 1.5px #242424 solid;
