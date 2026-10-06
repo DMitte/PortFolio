@@ -25,11 +25,14 @@ const projects = [
         role: "Desarrollo web y backend",
         year: "Ene 2025 – Actualidad",
         platform: "Freelancer.com",
-        image: "./img/projects/ecommerce-1.png",
+        image: "./img/projects/ecommerce-1.jpg",
         images: [
-            "./img/projects/ecommerce-1.png",
-            "./img/projects/ecommerce-2.png",
-            "./img/projects/ecommerce-3.png"
+            "./img/projects/ecommerce-1.jpg",
+            "./img/projects/ecommerce-2.jpg",
+            "./img/projects/ecommerce-3.jpg",
+            "./img/projects/ecommerce-4.jpg",
+            "./img/projects/ecommerce-5.jpg",
+            "./img/projects/ecommerce-6.jpg"
         ],
         tags: ["WordPress", "Elementor", "TypeScript", "Node.js", "Express", "Redis", "MongoDB"],
         private: true,
@@ -52,11 +55,14 @@ const projects = [
         ],
         role: "Desarrollo de software a medida",
         year: "2026",
-        image: "./img/projects/crm-inmobiliaria-1.png",
+        image: "./img/projects/crm-inmobiliaria-1.jpg",
         images: [
-            "./img/projects/crm-inmobiliaria-1.png",
-            "./img/projects/crm-inmobiliaria-2.png",
-            "./img/projects/crm-inmobiliaria-3.png"
+            "./img/projects/crm-inmobiliaria-1.jpg",
+            "./img/projects/crm-inmobiliaria-2.jpg",
+            "./img/projects/crm-inmobiliaria-3.jpg",
+            "./img/projects/crm-inmobiliaria-4.jpg",
+            "./img/projects/crm-inmobiliaria-5.jpg",
+            "./img/projects/crm-inmobiliaria-6.jpg"
         ],
         tags: ["CRM", "Software a medida", "Inmobiliaria", "Aplicación web"],
         private: true,
@@ -78,11 +84,14 @@ const projects = [
         ],
         role: "Desarrollo de software a medida",
         year: "2026",
-        image: "./img/projects/erp-intranet-1.png",
+        image: "./img/projects/erp-intranet-1.jpg",
         images: [
-            "./img/projects/erp-intranet-1.png",
-            "./img/projects/erp-intranet-2.png",
-            "./img/projects/erp-intranet-3.png"
+            "./img/projects/erp-intranet-1.jpg",
+            "./img/projects/erp-intranet-2.jpg",
+            "./img/projects/erp-intranet-3.jpg",
+            "./img/projects/erp-intranet-4.jpg",
+            "./img/projects/erp-intranet-5.jpg",
+            "./img/projects/erp-intranet-6.jpg"
         ],
         tags: ["ERP", "Intranet", "Roles y permisos", "Aplicación web"],
         private: true,
@@ -104,11 +113,14 @@ const projects = [
         ],
         role: "Desarrollo de software a medida",
         year: "2026",
-        image: "./img/projects/control-de-obra-1.png",
+        image: "./img/projects/control-de-obra-1.jpg",
         images: [
-            "./img/projects/control-de-obra-1.png",
-            "./img/projects/control-de-obra-2.png",
-            "./img/projects/control-de-obra-3.png"
+            "./img/projects/control-de-obra-1.jpg",
+            "./img/projects/control-de-obra-2.jpg",
+            "./img/projects/control-de-obra-3.jpg",
+            "./img/projects/control-de-obra-4.jpg",
+            "./img/projects/control-de-obra-5.jpg",
+            "./img/projects/control-de-obra-6.jpg"
         ],
         tags: ["Control de obra", "Construcción", "Software a medida", "Aplicación web"],
         private: true,
@@ -116,27 +128,31 @@ const projects = [
         code: ""
     },
     {
-        id: "control-gimnasio",
-        title: "Sistema de control para gimnasio",
-        description: "Sistema para administrar a los clientes de un gimnasio: membresías, accesos y seguimiento.",
+        id: "whatsapp-wancon",
+        title: "Plataforma de mensajería por WhatsApp (WANCON)",
+        description: "Panel web para atender conversaciones de WhatsApp y enviar mensajes masivos con plantillas, integrado con Twilio.",
         details: [
-            "Desarrollo de un sistema de control para gimnasio que permite administrar a los clientes y mantener su información al día.",
-            "Facilita el trabajo del personal del gimnasio al reunir en un solo lugar la gestión de socios y su estado."
+            "Desarrollo de WANCON, una plataforma web para gestionar la comunicación con clientes por WhatsApp desde un solo panel: bandeja de conversaciones, envío de mensajes individuales y campañas de envío masivo.",
+            "Se integra con Twilio para usar plantillas de WhatsApp aprobadas y llevar el control del estado de cada mensaje enviado."
         ],
         highlights: [
-            "Registro y gestión de clientes del gimnasio.",
-            "Control de membresías y su estado.",
-            "Información de socios disponible de forma rápida para el personal."
+            "Bandeja de conversaciones con búsqueda y alerta de mensajes sin entregar.",
+            "Envío masivo a partir de números pegados desde Excel o cargados por CSV/TXT.",
+            "Plantillas de WhatsApp con variables personalizadas por destinatario.",
+            "Campañas con nombre, agrupación de conversaciones y seguimiento del envío.",
+            "Gestión de contactos e integración con Twilio."
         ],
-        role: "Desarrollo de software a medida",
+        role: "Desarrollo full stack",
         year: "2026",
-        image: "./img/projects/control-gimnasio-1.png",
+        image: "./img/projects/whatsapp-wancon-1.jpg",
         images: [
-            "./img/projects/control-gimnasio-1.png",
-            "./img/projects/control-gimnasio-2.png",
-            "./img/projects/control-gimnasio-3.png"
+            "./img/projects/whatsapp-wancon-1.jpg",
+            "./img/projects/whatsapp-wancon-2.jpg",
+            "./img/projects/whatsapp-wancon-3.jpg",
+            "./img/projects/whatsapp-wancon-4.jpg",
+            "./img/projects/whatsapp-wancon-5.jpg"
         ],
-        tags: ["Gimnasio", "Gestión de clientes", "Software a medida", "Aplicación web"],
+        tags: ["WhatsApp", "Twilio", "Envío masivo", "Aplicación web"],
         private: true,
         demo: "",
         code: ""
@@ -156,11 +172,14 @@ const projects = [
         ],
         role: "Desarrollo móvil",
         year: "2026",
-        image: "./img/projects/app-movil-1.png",
+        image: "./img/projects/app-movil-1.jpg",
         images: [
-            "./img/projects/app-movil-1.png",
-            "./img/projects/app-movil-2.png",
-            "./img/projects/app-movil-3.png"
+            "./img/projects/app-movil-1.jpg",
+            "./img/projects/app-movil-2.jpg",
+            "./img/projects/app-movil-3.jpg",
+            "./img/projects/app-movil-4.jpg",
+            "./img/projects/app-movil-5.jpg",
+            "./img/projects/app-movil-6.jpg"
         ],
         tags: ["Ionic", "Android", "iOS", "App móvil"],
         private: false,
@@ -183,10 +202,12 @@ const projects = [
         ],
         role: "Infraestructura y despliegue",
         year: "2026",
-        image: "./img/projects/aws-despliegue-1.png",
+        image: "./img/projects/aws-despliegue-1.jpg",
         images: [
-            "./img/projects/aws-despliegue-1.png",
-            "./img/projects/aws-despliegue-2.png"
+            "./img/projects/aws-despliegue-1.jpg",
+            "./img/projects/aws-despliegue-2.jpg",
+            "./img/projects/aws-despliegue-3.jpg",
+            "./img/projects/aws-despliegue-4.jpg"
         ],
         tags: ["AWS", "Textract", "Despliegue", "Servidores"],
         private: false,
@@ -208,11 +229,12 @@ const projects = [
         role: "Desarrollo web y backend",
         year: "Ene 2025 – Mar 2025",
         platform: "Freelancer.com",
-        image: "./img/projects/epmapse-gestion-1.png",
+        image: "./img/projects/epmapse-gestion-1.jpg",
         images: [
-            "./img/projects/epmapse-gestion-1.png",
-            "./img/projects/epmapse-gestion-2.png",
-            "./img/projects/epmapse-gestion-3.png"
+            "./img/projects/epmapse-gestion-1.jpg",
+            "./img/projects/epmapse-gestion-2.jpg",
+            "./img/projects/epmapse-gestion-3.jpg",
+            "./img/projects/epmapse-gestion-4.jpg"
         ],
         tags: ["Node.js", "Express.js", "Roles y permisos", "Autenticación"],
         private: true,
@@ -230,11 +252,12 @@ const projects = [
         role: "Diseño y desarrollo web",
         year: "Dic 2024 – Feb 2025",
         platform: "Freelancer.com",
-        image: "./img/projects/epmapse-web-1.png",
+        image: "./img/projects/epmapse-web-1.jpg",
         images: [
-            "./img/projects/epmapse-web-1.png",
-            "./img/projects/epmapse-web-2.png",
-            "./img/projects/epmapse-web-3.png"
+            "./img/projects/epmapse-web-1.jpg",
+            "./img/projects/epmapse-web-2.jpg",
+            "./img/projects/epmapse-web-3.jpg",
+            "./img/projects/epmapse-web-4.jpg"
         ],
         tags: ["HTML5", "CSS", "Diseño responsive", "Accesibilidad"],
         private: false,
@@ -251,10 +274,13 @@ const projects = [
         role: "Desarrollo full stack",
         year: "Ene 2024 – Mar 2024",
         platform: "Upwork",
-        image: "./img/projects/chatapp-1.png",
+        image: "./img/projects/chatapp-1.jpg",
         images: [
-            "./img/projects/chatapp-1.png",
-            "./img/projects/chatapp-2.png"
+            "./img/projects/chatapp-1.jpg",
+            "./img/projects/chatapp-2.jpg",
+            "./img/projects/chatapp-3.jpg",
+            "./img/projects/chatapp-4.jpg",
+            "./img/projects/chatapp-5.jpg"
         ],
         tags: ["Vue.js", "Node.js"],
         private: false,
@@ -272,10 +298,12 @@ const projects = [
         role: "Desarrollo full stack",
         year: "Oct 2023 – Dic 2023",
         platform: "Freelancer.com",
-        image: "./img/projects/blog-1.png",
+        image: "./img/projects/blog-1.jpg",
         images: [
-            "./img/projects/blog-1.png",
-            "./img/projects/blog-2.png"
+            "./img/projects/blog-1.jpg",
+            "./img/projects/blog-2.jpg",
+            "./img/projects/blog-3.jpg",
+            "./img/projects/blog-4.jpg"
         ],
         tags: ["JavaScript", "Vue.js"],
         private: false,
@@ -291,10 +319,12 @@ const projects = [
         ],
         role: "Desarrollo web",
         year: "Dic 2022 – May 2023",
-        image: "./img/projects/todolist-1.png",
+        image: "./img/projects/todolist-1.jpg",
         images: [
-            "./img/projects/todolist-1.png",
-            "./img/projects/todolist-2.png"
+            "./img/projects/todolist-1.jpg",
+            "./img/projects/todolist-2.jpg",
+            "./img/projects/todolist-3.jpg",
+            "./img/projects/todolist-4.jpg"
         ],
         tags: ["JavaScript", "CSS"],
         private: false,
