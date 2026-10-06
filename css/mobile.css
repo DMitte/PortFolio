@@ -16,7 +16,12 @@
         font-size: 1.5em;
     }
     main #tech ul li a img{
-        width: 45px;   
+        width: 45px;
+    }
+    main #tech ul li{
+        flex: 0 0 25%;
+        display: flex;
+        justify-content: center;
     }
     main #skills h3{
         font-size: 1.3rem;
@@ -32,6 +37,9 @@
         width: 180px;
         height: 232px;
     }
+    main #skills .cards .card:last-child{
+        grid-column: 1 / -1;
+    }
     main #skills .cards .card img{
         width: 23px;
         height: 23px;
@@ -42,5 +50,22 @@
     }
     main #contact{
         margin: 50px 0 80px 0;
+    }
+    main #projects{
+        margin: 70px auto;
+    }
+    main #projects h3{
+        font-size: 1.3rem;
+    }
+    main #projects .project-grid{
+        grid-template-columns: 1fr;
+    }
+    #project-detail h1{ font-size: 1.7rem; }
+    #project-detail .meta{ gap: 25px; }
+    #project-detail .detail-links{ flex-direction: column; }
+}
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    main #projects .project-grid{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
