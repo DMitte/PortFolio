@@ -51,7 +51,7 @@ const projects = [
             "Diseñado a medida del flujo de trabajo de la inmobiliaria."
         ],
         role: "Desarrollo de software a medida",
-        year: "",
+        year: "2026",
         image: "./img/projects/crm-inmobiliaria-1.png",
         images: [
             "./img/projects/crm-inmobiliaria-1.png",
@@ -77,7 +77,7 @@ const projects = [
             "Módulos adaptados a las áreas y necesidades de la organización."
         ],
         role: "Desarrollo de software a medida",
-        year: "",
+        year: "2026",
         image: "./img/projects/erp-intranet-1.png",
         images: [
             "./img/projects/erp-intranet-1.png",
@@ -103,7 +103,7 @@ const projects = [
             "Menos control manual y más visibilidad para la toma de decisiones."
         ],
         role: "Desarrollo de software a medida",
-        year: "",
+        year: "2026",
         image: "./img/projects/control-de-obra-1.png",
         images: [
             "./img/projects/control-de-obra-1.png",
@@ -129,7 +129,7 @@ const projects = [
             "Información de socios disponible de forma rápida para el personal."
         ],
         role: "Desarrollo de software a medida",
-        year: "",
+        year: "2026",
         image: "./img/projects/control-gimnasio-1.png",
         images: [
             "./img/projects/control-gimnasio-1.png",
@@ -155,7 +155,7 @@ const projects = [
             "Preparada para su publicación en Google Play y App Store."
         ],
         role: "Desarrollo móvil",
-        year: "",
+        year: "2026",
         image: "./img/projects/app-movil-1.png",
         images: [
             "./img/projects/app-movil-1.png",
@@ -182,7 +182,7 @@ const projects = [
             "Integración de otros servicios de AWS según las necesidades del proyecto."
         ],
         role: "Infraestructura y despliegue",
-        year: "",
+        year: "2026",
         image: "./img/projects/aws-despliegue-1.png",
         images: [
             "./img/projects/aws-despliegue-1.png",
